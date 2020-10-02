@@ -475,3 +475,39 @@
       padding: 5rem;
       background-color: dodgerblue;
 }
+.bottom-content {
+    display: flex;
+    font-size: 1.5rem;
+}
+.bottom-content p {
+    width: 50%;
+}
+.text-container1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 35rem;
+
+}
+.text-container2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -20rem;
+
+}
+.text-container3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: -20rem;
+}
+#footer-nav {
+    display: flex;
+    flex-direction: flex-start;
+    background-color: black;
+}
+#footer-nav a {
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    margin: 2rem;
+}
