@@ -409,5 +409,69 @@
   #topcontent2 p {
       width: 40%;
   }
-
-  
+  .middle-content h2 {
+      font-size: 2rem;
+      margin-left: 25rem;
+  }
+  .boxes {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      justify-content: center;
+  }
+  .boxes2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  #box1 {
+      padding: 5rem;
+      margin: 1rem;
+      background-color: teal;
+  }
+  #box2 {
+      padding: 5rem;
+      margin: 1rem;
+      background-color: gold;
+}
+  #box3 {
+      margin: 1rem;  
+      padding: 5rem;
+      background-color: cadetblue;
+}
+  #box4 {
+      margin: 1rem;  
+      padding: 5rem;
+      background-color: coral;
+}
+  #box5 {
+      margin: 1rem;
+      padding: 5rem;
+      background-color: crimson;
+}
+  #box6 {
+      margin: 1rem;
+      padding: 5rem;
+      background-color: forestgreen;
+}
+  #box7 {
+      margin: 1rem;
+      padding: 5rem;
+      background-color: darkorchid;
+}
+  #box8 {
+      margin: 1rem;
+      padding: 5rem;
+      background-color: hotpink;
+}
+  #box9 {
+      margin: 1rem;
+      padding: 5rem;
+      background-color: indigo;
+}
+  #box10 {
+      margin: 1rem;
+      padding: 5rem;
+      background-color: dodgerblue;
+}
