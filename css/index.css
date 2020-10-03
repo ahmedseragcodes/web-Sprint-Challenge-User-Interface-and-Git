@@ -511,71 +511,90 @@ header {
 }
 /* END CSS HOME PAGE */
 /* START CSS ABOUT PAGE */
-#about-intro-image {
+
+#about-header-image {
   display: flex;
   justify-content: center;
 }
-#about-intro-image img {
-  width: 50rem;
-  height: 25rem;
+#about-header-image {
+  height: 25em;
 }
-#about-intro {
+#intro-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 1.5rem;
   font-weight: bold;
+  text-align: left;
 }
-#image-grid1 {
+#intro-section h2 {
+  position: relative;
+  right: 25rem;
+  top: 2rem;
+}
+#image-container1 {
   display: flex;
   justify-content: center;
   font-size: 1.5rem;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
 }
-#image-grid1 button, #image-grid2 button {
+#image-container1 p {
+  width: 20em;
+}
+#image-container1 button {
   padding: 1rem;
-  width: 7rem;
   background-color: white;
-  border: 3px solid black;
-  margin-bottom: 1rem;
+  color: black;
+  border-radius: 1rem;
+  border: .25rem solid black;
 }
-#image-grid2 {
+#imagebox1 {
+  margin: 2rem;
+  border-top: 2px dotted black;
+  border-bottom: 2px dotted black;
+  padding: 1rem;
+}
+#imagebox2 {
+  margin: 2rem;
+  border-top: 2px dotted black;
+  border-bottom: 2px dotted black;
+  padding: 1rem;
+}
+#image-container2 {
   display: flex;
   justify-content: center;
   font-size: 1.5rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
 }
-#gridpart1 {
-  display: flex;
-  flex-direction: column;
-  border-bottom: 3px dotted black;
-  border-top: 3px dotted black;
+#image-container2 p {
+  width: 20em;
 }
-#gridpart2 {
-  display: flex;
-  flex-direction: column;
-  border-bottom: 3px dotted black;
-  border-top: 3px dotted black;
+#image-container2 button {
+  padding: 1rem;
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  border: .25rem solid black;
 }
-#gridpart3 {
-  display: flex;
-  flex-direction: column;
-  border-bottom: 3px dotted black;
+#imagebox3 {
+  margin: 2rem;
+  border-bottom: 2px dotted black;
+  padding: 1rem;
 }
-#gridpart4 {
-  display: flex;
-  flex-direction: column;
-  border-bottom: 3px dotted black;
+#imagebox4 {
+  margin: 2rem;
+  border-bottom: 2px dotted black;
+  padding 1 rem;
 }
 #footer-intro {
-  margin-top: 1rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
+  align-items: center;
   font-size: 1.5rem;
+}
+#footer-intro h2 {
   position: relative;
-  left: 37rem;
+  right: 15rem;
+  bottom: -1rem;
+}
+#footer-intro p {
+  width: 50rem;
 }
